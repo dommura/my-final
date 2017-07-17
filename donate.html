@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Final Project NYCDA</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    .grey{
+      background-color: #000;
+      padding: 20px;
+    }
+      </style>
+  </head>
+  <body>
+
+  <header>
+        <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a href="index.html" class="navbar-brand">Final Project</a>
+          </div>
+          <div class="collapse navbar-collapse" id="example">
+            <ul class="nav navbar-nav">
+              <li role="presentation"><a href="index.html"><strong>HOME</strong></a></li>
+              <li role="presentation"><a href="about.html"><strong>ABOUT</strong></a></li>
+              <li role="presentation"><a href="gallery.html"><strong>GALLERY</strong></a></li>
+              <li role="presentation" class="active"><a href="donate.html"><strong>DONATE</strong></a></li>
+              <li role="presentation"><a href="contact.html"><strong>CONTACT US<strong></a></li>
+            </ul>
+
+
+
+            <form action="" class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="search this out">
+           </div>
+           <button type="text" class="btn btn-primary">Submit</button>
+         </form>
+       </div>
+
+     </div>
+    </div>
+
+      <div id="banner" class="jumbotron">
+        <div class="container">
+          <h1>Donate</h1>
+        </div>
+      </div>
+    </header>
+
+<div class="paypal">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business"
+        value="dommura@project.org">
+
+    <!-- Specify a Donate button. -->
+    <input type="hidden" name="cmd" value="_donations">
+
+    <!-- Specify details about the contribution -->
+    <input type="hidden" name="item_name" value="Friends of the Park">
+    <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Display the payment button. -->
+    <input type="image" name="submit"
+    src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+    alt="Donate">
+    <img alt="" width="1" height="1"
+    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+</form>
+
+</div>
+
+    <article>
+    <h1>About</h1>
+    <p> Lorem ipsum dolor sit amet, massa elit mi est, vel pharetra. Posuere mauris sit, massa purus nec morbi molestie nulla, scelerisque mauris auctor libero nulla, lacus torquent non mauris est aliquam. Delectus libero imperdiet amet interdum, per elit lacus. Pellentesque pellentesque, ut purus blandit vel. Nec et ac tincidunt hac donec, rhoncus et. Lobortis amet, mauris dolor bibendum justo dapibus congue, lorem donec elit mauris lacus nonummy et, ante diam montes sit turpis euismod dolor, penatibus adipiscing. Mi nunc id cursus pellentesque scelerisque, eu maecenas, sed mattis ut. Est vitae diam accumsan vestibulum vel tortor, dictum elementum, urna rutrum massa pede tristique id sed. Felis morbi sed in, ullamcorper neque eget sit in erat. Natoque rutrum ac interdum neque vitae, suspendisse ipsum, commodo class dictum erat, nec odio donec auctor nulla commodo, adipiscing amet nascetur malesuada congue lacus libero. Sit auctor, metus ante, proin aliquet et, nam egestas aenean platea enim ligula.
+
+Vel quis, diam purus tempor, magnis id metus, ac in ut ac. Per donec orci metus ornare nam mauris, sapien pharetra metus mollis volutpat ex commodo, ut diam, massa diam, a eros sed. Hac tincidunt felis. Purus urna turpis orci. Ut consectetuer a, mi odio ac lorem wisi volutpat, vehicula nulla possimus at in, fermentum tempor posuere. Aliquam luctus cursus, suscipit etiam venenatis, mollis phasellus adipiscing. Orci accumsan augue, sollicitudin viverra vel, justo etiam malesuada justo libero cursus, felis neque nullam, ligula venenatis. Dolor nibh nullam, viverra integer eros, elementum pellentesque mattis tincidunt porttitor ullamcorper.</p>
+    </article>
+
+
+  <footer>
+<section id="foot"><div>
+  <h3>Lorem ipsum</h3>
+  <ul>
+    <li><a href="#">Lorem ipsum</a></li>
+    <li><a href="#">amet, massa</a></li>
+    <li><a href="#">vel pharetra</a></li>
+  </ul></div>
+<div>
+  <h3>Lorem ipsum</h3>
+    <ul>
+    <li><a href="#">Lorem ipsum</a></li>
+    <li><a href="#">amet, massa</a></li>
+    <li><a href="#">vel pharetra</a></li>
+  </ul></div>
+  <div>
+  <h3> Pages </h3>
+    <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Donate</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+
+  
+  </div>
+
+    <div>
+  <h3> Pages </h3>
+    <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Donate</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+
+   <a href="https://www.facebook.com/dommuraz"><img border="0" alt="facebook" src="imagepoor/facebook.png" width="30" height="30">
+  </a>
+  <a href="https://twitter.com/dommura1"><img border="0" alt="twitter" src="imagepoor/twitter.png" width="30" height="30">
+  </a>
+  <a href="https://plus.google.com/107851198822997532595"><img border="0" alt="Google+" src="imagepoor/gooplus.png" width="30" height="30">
+  </a>
+  <a href="#"><img border="0" alt="pinterst" src="imagepoor/pinter.png" width="30" height="30">
+  </a>
+  
+  </div>
+
+
+
+  </section>
+   <a id="back" href="#">Back to Top</a>
+    </footer>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="JSscript.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+  </html>
